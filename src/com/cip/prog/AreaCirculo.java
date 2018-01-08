@@ -8,7 +8,8 @@ public class AreaCirculo {
 		
 		System.out.print("Introducir radio: ");	//Mensaje para introducir datos
 		double radio = sc_radio.nextDouble();
-			
+		
+		//Actualización para ejercicio github clone
 		System.out.println("El área del circulo es: " + Math.PI*Math.pow(radio, 2));
 		
 		sc_radio.close();
